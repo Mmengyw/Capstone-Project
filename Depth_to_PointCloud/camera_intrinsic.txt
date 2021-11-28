@@ -1,0 +1,22 @@
+// camera matrix parameters:
+// focal length fx, fy and optical centers cx, cy.
+// camera_matrix = [[f_x, 0, c_x],
+//                  [0, f_y, c_y],
+//                  [0, 0,   1  ]]
+f_x: 926.9796142578125
+f_y: 924.431884765625
+c_x: 790.234375
+c_y: 617.5499267578125
+
+// distortion coefficients
+// tangential distortion:
+// x_distorted = x + 2p_1xy + p_2(r^2 + 2x^2)
+// y_distorted = y + 2p_2xy + p_1(r^2 + 2y^2)
+// radial distortion:
+// x_distorted = x(1 + k_1r^2 + k_2r^4 + k_3r^6)
+// y_distorted = y(1 + k_1r^2 + k_2r^4 + k_3r^6)
+k_1: -0.3435724079608917
+k_2: 0.13839420676231384
+k_3: -0.027609849348664284
+p_1: 0.0001147623042925261
+p_2: -0.0003140894987154752
